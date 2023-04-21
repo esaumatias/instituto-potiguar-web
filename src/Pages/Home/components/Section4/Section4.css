@@ -1,0 +1,302 @@
+.containerSection4 {
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F6F6F6;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem;
+}
+
+.containerSection4 .containerTitle {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.containerSection4 .containerTitle .title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #D6A912;
+  text-align: center;
+  display: inline-block;
+  font-style: italic;
+}
+
+.containerSection4 .containerTitle .subtitle {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #047A40;
+  text-align: center;
+  display: inline-block;
+  line-height: 1;
+}
+
+.containerSection4 .containerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  flex: 1;
+  gap: 20px;
+}
+
+.containerSection4 .containerContent .containerImage {
+  flex: 1;
+}
+
+.containerSection4 .containerContent .containerImage img {
+  max-width: 800px;
+}
+
+.containerSection4 .containerContent .containerCheckList {
+  flex: 1;
+  align-self: center;
+  margin-top: 30px;
+}
+
+.containerSection4 .containerContent .containerCheckList .card {
+  display: flex;
+  gap: 15px;
+  line-height: 2.5;
+  align-items: center;
+}
+
+.containerSection4 .containerContent .containerCheckList .button {
+  background-color: #F6F6F6;
+  color: #5597BF;
+  border: 1px solid #5597BF;
+  border-radius: 4px;
+  padding: 10px 35px;
+  box-shadow: -4px 4px 0px 0px #5597BF;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.containerSection4 .containerContent .containerCheckList .button:hover {
+  transform: scale(1.1);
+}
+
+.containerSection4 .containerContent .containerCheckList .card div {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #114D24;
+  text-align: center;
+  display: inline-block;
+}
+
+
+.containerCheckList .title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #5597BF;
+  text-align: center;
+  display: inline-block;
+  line-height: 2.5;
+}
+
+@media only screen and (max-width: 1244px) {
+  .containerCheckList .title {
+    font-size: 2.5rem;
+    line-height: 2.5;
+  }
+  .containerSection4 .containerContent .containerCheckList .card div {
+    font-size: 1.2rem;
+  }
+  .containerSection4 .containerContent .containerImage img {
+    max-width: 700px;
+  }
+  .containerSection4 .containerTitle .title {
+    font-size: 1.9rem;
+  }
+  
+  .containerSection4 .containerTitle .subtitle {
+    font-size: 2.1rem;
+  }
+}
+
+@media only screen and (max-width: 1154px) {
+  .containerCheckList .title {
+    font-size: 2.4rem;
+    line-height: 2.4;
+  }
+  .containerSection4 .containerContent .containerCheckList .card div {
+    font-size: 1.2rem;
+  }
+  .containerSection4 .containerContent .containerImage img {
+    max-width: 650px;
+  }
+  .containerSection4 .containerTitle .title {
+    font-size: 1.7rem;
+  }
+  
+  .containerSection4 .containerTitle .subtitle {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1054px) {
+  .containerCheckList .title {
+    font-size: 2.2rem;
+    line-height: 2.2;
+  }
+  .containerSection4 .containerContent .containerCheckList .card div {
+    font-size: 1.1rem;
+  }
+  .containerSection4 .containerContent .containerImage img {
+    max-width: 600px;
+  }
+  .containerSection4 .containerTitle .title {
+    font-size: 1.5rem;
+  }
+  
+  .containerSection4 .containerTitle .subtitle {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 953px) {
+  .containerCheckList .title {
+    font-size: 2.1rem;
+    line-height: 2.2;
+  }
+  .containerSection4 .containerContent .containerCheckList .card div {
+    font-size: 1rem;
+  }
+  .containerSection4 .containerContent .containerImage img {
+    max-width: 550px;
+  }
+  .containerSection4 .containerTitle .title {
+    font-size: 1.3rem;
+  }
+  
+  .containerSection4 .containerTitle .subtitle {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .containerCheckList .title {
+    font-size: 2rem;
+    line-height: 2;
+  }
+  .containerSection4 .containerContent .containerCheckList .card div {
+    font-size: 1rem;
+  }
+  .containerSection4 .containerContent .containerImage img {
+    max-width: 500px;
+  }
+  .containerSection4 .containerTitle .title {
+    font-size: 1.2rem;
+  }
+  
+  .containerSection4 .containerTitle .subtitle {
+    font-size: 1.5rem;
+  }
+  .containerSection4 .containerContent .containerCheckList .button {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 804px) {
+  .containerCheckList .title {
+    font-size: 1.8rem;
+    line-height: 1.9;
+  }
+  .containerSection4 .containerContent .containerCheckList .card div {
+    font-size: 0.9rem;
+  }
+  .containerSection4 .containerContent .containerImage img {
+    max-width: 450px;
+  }
+  .containerSection4 .containerTitle .title {
+    font-size: 1.1rem;
+  }
+  
+  .containerSection4 .containerTitle .subtitle {
+    font-size: 1.4rem;
+  }
+  .containerSection4 .containerContent .containerCheckList .button {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .containerCheckList .title {
+    font-size: 1.6rem;
+    line-height: 1.7;
+  }
+  .containerSection4 .containerContent .containerCheckList .card div {
+    font-size: 0.8rem;
+  }
+  .containerSection4 .containerContent .containerImage img {
+    max-width: 400px;
+  }
+  .containerSection4 .containerTitle .title {
+    font-size: 1rem;
+  }
+  
+  .containerSection4 .containerTitle .subtitle {
+    font-size: 1.1srem;
+  }
+  .containerSection4 .containerContent .containerCheckList .button {
+    font-size: 0.9rem;
+  }
+  .containerSection4 {
+    padding: 3rem;
+  }
+}
+
+
+@media only screen and (max-width: 704px) {
+  .containerCheckList .title {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  .containerSection4 .containerContent .containerCheckList .card div {
+    font-size: 0.6rem;
+  }
+  .containerSection4 .containerContent .containerImage img {
+    max-width: 350px;
+  }
+  .containerSection4 .containerTitle .title {
+    font-size: 0.8rem;
+  }
+  
+  .containerSection4 .containerTitle .subtitle {
+    font-size: 0.9rem;
+  }
+  .containerSection4 .containerContent .containerCheckList .button {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 602px) {
+  .containerSection4 .containerContent .containerImage {
+    display: none;
+  }
+  .containerSection4 .containerContent {
+   justify-content: center;
+  }
+  .containerSection4 .containerContent .containerCheckList {
+    flex: none;
+    text-align: center;
+    justify-content: center;
+  }
+  .containerSection4 .containerContent .containerCheckList .card {
+    line-height: 4;
+  }
+  .containerSection4 .containerTitle .title {
+    font-size: 1rem;
+  }
+  
+  .containerSection4 .containerTitle .subtitle {
+    font-size: 0.9rem;
+  }
+}

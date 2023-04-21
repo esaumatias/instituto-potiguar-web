@@ -6,6 +6,7 @@ import buttonSetaBottom from "../../Assets/1 - ícone.png";
 
 import Section2 from './components/Section2';
 import Section3 from './components/Section3';
+import Section4 from './components/Section4';
 
 import "./Home.css";
 
@@ -36,12 +37,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
       <Section2 />
-      
       <div className="lineDIvision"/>
-
       <Section3 />
+      <Section4 />
     </AuthorizedLayout>
   );
 };
