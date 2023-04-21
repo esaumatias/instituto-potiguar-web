@@ -111,9 +111,11 @@
   .containerSection2 .subtitle {
     font-size: 1.3rem;
   }
-  .containerSection2 .containerText .text,
-  .containerSection2 .button {
+  .containerSection2 .containerText .text {
     font-size: 0.9rem;
+  }
+  .containerSection2 .button {
+    font-size: 0.8rem;
   }
   .containerSection2 .content {
     padding: 3rem
