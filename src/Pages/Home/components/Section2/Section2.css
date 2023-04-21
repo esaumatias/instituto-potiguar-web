@@ -90,14 +90,14 @@
 
 @media only screen and (max-width: 775px) {
   .containerSection2 .title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .containerSection2 .subtitle {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
   .containerSection2 .containerText .text,
   .containerSection2 .button {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .containerSection2 .content {
     padding: 4rem
@@ -106,14 +106,14 @@
 
 @media only screen and (max-width: 488px) {
   .containerSection2 .title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .containerSection2 .subtitle {
     font-size: 1.3rem;
   }
   .containerSection2 .containerText .text,
   .containerSection2 .button {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .containerSection2 .content {
     padding: 3rem
