@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,700;0,800;1,200;1,300;1,700;1,800&display=swap');
+
+@keyframes moveArrow {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.lineDIvision {
+  background: linear-gradient(to right, #F7C301, #D6A912);
+  height: 7px;
+}
+
+.containerPageInitial {
+  position: relative;
+  background: linear-gradient(to right, #F7C301, #D6A912);
+}
+
+.containerPageInitial .backgounImage {
+  width: 100vw;
+}
+
+.containerTextPrincipal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.containerTextPrincipal .titleHeader,
+.containerTextPrincipal .subtitleHeader {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  line-height: 1;
+}
+
+.containerTextPrincipal .titleHeader {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #D6A912;
+  font-style: italic;
+}
+
+.containerTextPrincipal .subtitleHeader {
+  font-size: 3.1rem;
+  font-weight: 400;
+  color: #047A40;
+}
+
+.containerPageInitial .buttonHeader {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.buttonHeader img {
+  animation: moveArrow 1.5s ease-in-out infinite;
+  width: 2.5rem;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .containerTextPrincipal .titleHeader {
+    font-size: 2rem;
+  }
+  .containerTextPrincipal .subtitleHeader {
+    font-size: 2.6rem;
+  }
+  .buttonHeader img {
+    width: 2rem;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .containerTextPrincipal .titleHeader {
+    font-size: 1.5rem;
+  }
+  .containerTextPrincipal .subtitleHeader {
+    font-size: 1.9rem;
+  }
+  .buttonHeader img {
+    width: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .containerTextPrincipal .titleHeader {
+    font-size: 1rem;
+  }
+  .containerTextPrincipal .subtitleHeader {
+    font-size: 1.3rem;
+  }
+  .buttonHeader img {
+    width: 1rem;
+  }
+}
+

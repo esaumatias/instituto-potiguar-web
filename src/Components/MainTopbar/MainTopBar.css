@@ -1,0 +1,33 @@
+.buttonNavHeader {
+  border: none;
+  background-color: transparent;
+  color: #114D24;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 2px 0;
+}
+
+.selectedMenu {
+  color: #D6A912;
+  border-bottom: 2px solid #114D24;
+}
+
+.containerNavHeader {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerNavHeaderMobile {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+}

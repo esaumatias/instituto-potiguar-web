@@ -1,0 +1,122 @@
+@keyframes slideImg {
+  from {
+    transform: translateY(50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.containerSection2 {
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F6F6F6;
+  display: flex;
+  flex: 1;
+}
+
+.containerSection2 .content {
+  padding: 5rem
+}
+
+.containerSection2 .containerTextTitle {
+  display: inline-block;
+  line-height: 1;
+}
+
+.containerSection2 .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #047A40;
+}
+
+.containerSection2 .subtitle {
+  font-size: 2.7rem;
+  font-weight: 400;
+  color: #D6A912;
+}
+
+.containerSection2 .containerText .text {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #047A40;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-container img {
+  height: 100%;
+  max-width: 450px;
+}
+
+.animated {
+  display: none;
+}
+
+.slide-up {
+  animation: slideImg 0.4s ease-out;
+  animation-fill-mode: forwards;
+  display:flex;
+}
+
+.containerSection2 .button {
+  background-color: #F6F6F6;
+  color: #5597BF;
+  border: 1px solid #5597BF;
+  border-radius: 4px;
+  padding: 10px 10px;
+  box-shadow: -4px 4px 0px 0px #5597BF;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+}
+
+.containerSection2 .button:hover {
+  transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 1127px) {
+  .image-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .containerSection2 .title {
+    font-size: 1.5rem;
+  }
+  .containerSection2 .subtitle {
+    font-size: 1.7rem;
+  }
+  .containerSection2 .containerText .text,
+  .containerSection2 .button {
+    font-size: 0.8rem;
+  }
+  .containerSection2 .content {
+    padding: 4rem
+  }
+}
+
+@media only screen and (max-width: 488px) {
+  .containerSection2 .title {
+    font-size: 1rem;
+  }
+  .containerSection2 .subtitle {
+    font-size: 1.3rem;
+  }
+  .containerSection2 .containerText .text,
+  .containerSection2 .button {
+    font-size: 0.7rem;
+  }
+  .containerSection2 .content {
+    padding: 3rem
+  }
+}
+
