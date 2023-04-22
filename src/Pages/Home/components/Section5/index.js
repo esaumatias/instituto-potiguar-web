@@ -20,7 +20,12 @@ const Section5 = () => {
             <img src={parceiro2} alt="logo Prefeitura Angicos" className="angicos"/>
           </div>
         </div>
-        <button className="button">Quero ser parceiro</button>
+        <a
+          className="button"
+          href="https://api.whatsapp.com/send/?phone=5584991854000&text&-type=phone_number&app_absent=0"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Quero ser parceiro</a>
       </section>
     </>
   );

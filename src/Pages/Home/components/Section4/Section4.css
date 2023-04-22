@@ -67,7 +67,6 @@
 
 .containerSection4 .containerContent .containerCheckList .button {
   background-color: #F6F6F6;
-  color: #5597BF;
   border: 1px solid #5597BF;
   border-radius: 4px;
   padding: 10px 35px;
@@ -77,6 +76,11 @@
   transition: transform 0.4s ease-in-out;
   font-size: 1.3rem;
   margin-top: 20px;
+}
+
+.containerSection4 .containerContent .containerCheckList .button a {
+  text-decoration: none;
+  color: #5597BF;
 }
 
 .containerSection4 .containerContent .containerCheckList .button:hover {

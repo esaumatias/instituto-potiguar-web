@@ -47,8 +47,18 @@ const Section2 = () => {
         </div>
 
         <div style={{ display: "flex", gap: "25px", marginTop: "25px" }}>
-          <button className="button">Conheça a gente</button>
-          <button className="button">Nossas soluções</button>
+          <button className="button">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5584991854000&text&-type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Conheça a gente
+            </a>
+          </button>
+          <button className="button">
+            <a href="#nossas-soluções">Nossas soluções</a>
+          </button>
         </div>
       </div>
 

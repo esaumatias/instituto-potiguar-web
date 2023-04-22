@@ -39,13 +39,14 @@
   color: #5597BF;
   border: 1px solid #5597BF;
   border-radius: 4px;
-  padding: 10px 35px;
+  padding: 8px 35px;
   box-shadow: -4px 4px 0px 0px #5597BF;
   border-radius: 20px;
   cursor: pointer;
   transition: transform 0.4s ease-in-out;
   font-size: 1.3rem;
   margin-top: 20px;
+  text-decoration: none;
 }
 
 .containerSection5 .button:hover {

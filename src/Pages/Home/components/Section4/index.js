@@ -18,7 +18,7 @@ const list = [
 
 const Section4 = () => {
   return (
-    <section className="containerSection4">
+    <section className="containerSection4" id="nossas-soluções">
       <div className="containerTitle">
         <div className="title">
           Como enfretamos os desafios em prol da educação pública
@@ -46,7 +46,15 @@ const Section4 = () => {
               <div>{item}</div>
             </div>
           ))}
-          <button className="button">Saiba mais</button>
+          <button className="button">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5584991854000&text&-type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Saiba mais
+            </a>
+          </button>
         </div>
       </div>
     </section>

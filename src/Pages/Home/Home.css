@@ -24,6 +24,8 @@
 
 .containerPageInitial .backgounImage {
   width: 100vw;
+  height: 80vh;
+  object-fit: cover;
 }
 
 .containerTextPrincipal {
@@ -33,6 +35,7 @@
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .containerTextPrincipal .titleHeader,
@@ -67,43 +70,43 @@
 
 .buttonHeader img {
   animation: moveArrow 1.5s ease-in-out infinite;
-  width: 2.5rem;
+  width: 3rem;
 }
 
 
 @media only screen and (max-width: 1000px) {
   .containerTextPrincipal .titleHeader {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   .containerTextPrincipal .subtitleHeader {
     font-size: 2.6rem;
+  }
+  .buttonHeader img {
+    width: 3rem;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .containerTextPrincipal .titleHeader {
+    font-size: 2rem;
+  }
+  .containerTextPrincipal .subtitleHeader {
+    font-size: 2rem;
   }
   .buttonHeader img {
     width: 2rem;
   }
 }
 
-@media only screen and (max-width: 775px) {
-  .containerTextPrincipal .titleHeader {
-    font-size: 1.5rem;
-  }
-  .containerTextPrincipal .subtitleHeader {
-    font-size: 1.9rem;
-  }
-  .buttonHeader img {
-    width: 1.5rem;
-  }
-}
-
 @media only screen and (max-width: 565px) {
   .containerTextPrincipal .titleHeader {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .containerTextPrincipal .subtitleHeader {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   .buttonHeader img {
-    width: 1rem;
+    width: 2rem;
   }
 }
 

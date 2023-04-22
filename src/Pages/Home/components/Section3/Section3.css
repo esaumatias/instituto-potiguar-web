@@ -145,28 +145,8 @@
   }
 
   .containerSection3 .titleSection {
-    font-size: 1.2rem;
-    width: 80%;
-  }
-}
-
-@media only screen and (max-width: 570px) {
-  .containerCards .card {
-    width: 12rem;
-    height: 14rem;
-  }
-
-  .containerCards .card .text {
-    font-size: 0.9rem;
-  }
-
-  .containerCards .card .title {
     font-size: 1.5rem;
-  }
-
-  .containerSection3 .titleSection {
-    font-size: 1.2rem;
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -185,7 +165,7 @@
   }
 
   .containerSection3 .titleSection {
-    font-size: 0.9rem;
+    font-size: 1rem;
     width: 100%;
   }
 }
