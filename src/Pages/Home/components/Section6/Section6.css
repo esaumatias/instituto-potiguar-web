@@ -30,3 +30,28 @@
 .containerSection6 .containerHeader div span {
   font-weight: 500;
 }
+
+.card-container {
+  display: flex;
+  gap: 25px;
+}
+
+.card-container .red {
+  background-color: red;
+}
+
+/* 
+.card {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+}
+
+.card div {
+  color: red;
+}
+
+.containerCard {
+  display: flex;
+  flex-direction: column;
+} */

@@ -1,0 +1,50 @@
+.css-doq0dk .css-1fzpoyk {
+  width: 100vw ;
+  opacity: 1 !important;
+}
+
+/* style="transform: translateY(-50%) translateX(-75%) scale(0.5); left: 100%; opacity: 0.25; z-index: 0;" */
+
+.cardSection6 {
+  width: 27rem;
+  height: 30rem;
+  background: linear-gradient(to right, #02913F, #114D24);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 4rem;
+}
+
+.cardSection6 .text {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #F6F6F6;
+  text-align: center;
+  display: inline-block;
+  line-height: 1;
+}
+
+.cardSection6 img {
+  width: 8rem;
+}
+
+.cardSection6 .containerName {
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.cardSection6 .containerName .title {
+  color: #F7C301;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.cardSection6 .containerName .subtitle {
+  color: #F6F6F6;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
