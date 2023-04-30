@@ -79,9 +79,13 @@
 }
 
 @media only screen and (max-width: 1127px) {
+  .containerCards {
+    justify-content: center;
+  }
   .containerCards .card {
     width: 17rem;
     height: 19rem;
+    justify-content: center;
   }
 
   .containerCards .card .text {
@@ -120,8 +124,8 @@
 
 @media only screen and (max-width: 775px) {
   .containerCards .card {
-    width: 13rem;
-    height: 15rem;
+    width: 14rem;
+    height: 16rem;
   }
 
   .containerCards .card .text {
@@ -140,8 +144,8 @@
 
 @media only screen and (max-width: 570px) {
   .containerCards .card {
-    width: 12rem;
-    height: 14rem;
+    width: 14rem;
+    height: 16rem;
   }
 
   .containerCards .card .text {
@@ -160,20 +164,20 @@
 
 @media only screen and (max-width: 470px) {
   .containerCards .card {
-    width: 10rem;
-    height: 12rem;
+    width: 14rem;
+    height: 16rem;
   }
 
   .containerCards .card .text {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .containerCards .card .title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .containerSection3 .titleSection {
-    font-size: 1rem;
+    font-size: 1.4rem;
     width: 100%;
   }
 }

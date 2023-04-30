@@ -1,5 +1,5 @@
 .containerSection4 {
-  width: 100vw;
+  width: 80vw;
   font-family: 'Montserrat', sans-serif;
   background-color: #F6F6F6;
   display: flex;
@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   padding: 6rem;
+  align-self: center;
 }
 
 .containerSection4 .containerTitle {
@@ -117,7 +118,7 @@
     max-width: 700px;
   }
   .containerSection4 .containerTitle .title {
-    font-size: 1.9rem;
+    font-size: 2.5rem;
   }
   
   .containerSection4 .containerTitle .subtitle {
@@ -137,7 +138,7 @@
     max-width: 650px;
   }
   .containerSection4 .containerTitle .title {
-    font-size: 1.7rem;
+    font-size: 2.4rem;
   }
   
   .containerSection4 .containerTitle .subtitle {
@@ -157,7 +158,7 @@
     max-width: 600px;
   }
   .containerSection4 .containerTitle .title {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
   }
   
   .containerSection4 .containerTitle .subtitle {
@@ -177,7 +178,7 @@
     max-width: 550px;
   }
   .containerSection4 .containerTitle .title {
-    font-size: 1.3rem;
+    font-size: 2.2rem;
   }
   
   .containerSection4 .containerTitle .subtitle {
@@ -197,7 +198,7 @@
     max-width: 500px;
   }
   .containerSection4 .containerTitle .title {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   
   .containerSection4 .containerTitle .subtitle {
@@ -220,7 +221,7 @@
     max-width: 450px;
   }
   .containerSection4 .containerTitle .title {
-    font-size: 1.1rem;
+    font-size: 2rem;
   }
   
   .containerSection4 .containerTitle .subtitle {
@@ -243,11 +244,11 @@
     max-width: 400px;
   }
   .containerSection4 .containerTitle .title {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   
   .containerSection4 .containerTitle .subtitle {
-    font-size: 1.1srem;
+    font-size: 1.4rem;
   }
   .containerSection4 .containerContent .containerCheckList .button {
     font-size: 0.9rem;
@@ -260,21 +261,21 @@
 
 @media only screen and (max-width: 704px) {
   .containerCheckList .title {
-    font-size: 1.4rem;
-    line-height: 1.4;
+    font-size: 1.5rem;
+    line-height: 0.5;
   }
   .containerSection4 .containerContent .containerCheckList .card div {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
   .containerSection4 .containerContent .containerImage img {
     max-width: 350px;
   }
   .containerSection4 .containerTitle .title {
-    font-size: 0.8rem;
+    font-size: 1.6rem;
   }
   
   .containerSection4 .containerTitle .subtitle {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
   }
   .containerSection4 .containerContent .containerCheckList .button {
     font-size: 0.8rem;
@@ -297,10 +298,10 @@
     line-height: 4;
   }
   .containerSection4 .containerTitle .title {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   
   .containerSection4 .containerTitle .subtitle {
-    font-size: 0.9rem;
+    font-size: 1.4rem;
   }
 }

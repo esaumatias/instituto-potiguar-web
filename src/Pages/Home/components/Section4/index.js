@@ -21,18 +21,18 @@ const Section4 = () => {
     <section className="containerSection4" id="nossas-soluções">
       <div className="containerTitle">
         <div className="title">
-          Como enfretamos os desafios em prol da educação pública
+          Nossas soluções para enfrentar os desafios da educação pública
         </div>
-        <div className="subtitle">
+        {/* <div className="subtitle">
           de qualidade, integral, inclusiva e com equidade
-        </div>
+        </div> */}
       </div>
       <div className="containerContent">
         <div className="containerImage">
           <img src={imageLogo} alt="criança" />
         </div>
         <div className="containerCheckList">
-          <div className="title">Nossas soluções</div>
+          {/* <div className="title">Nossas soluções</div> */}
           {list.map((item, idx) => (
             <div key={idx} className="card">
               <CheckIcon

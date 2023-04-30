@@ -24,6 +24,7 @@ const Home = () => {
         avatar={Logo}
         placeholder="Enviar mensagem"
         statusMessage="Juntos pela educação, somos mais fortes!"
+        // size="60"
       />
 
       <div className="lineDIvision" />

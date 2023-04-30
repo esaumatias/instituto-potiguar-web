@@ -40,18 +40,38 @@
   background-color: red;
 }
 
-/* 
-.card {
-  background-color: aqua;
-  width: 200px;
-  height: 200px;
+@media only screen and (max-width: 1033px) {
+  .containerSection6 .containerHeader div {
+    font-size: 2.2rem;
+  }
+  .containerSection6 .containerHeader {
+    padding: 4rem 0;
+  }
 }
 
-.card div {
-  color: red;
+@media only screen and (max-width: 775px) {
+  .containerSection6 .containerHeader div {
+    font-size: 2rem;
+  }
+  .containerSection6 .containerHeader {
+    padding: 4rem 0;
+  }
 }
 
-.containerCard {
-  display: flex;
-  flex-direction: column;
-} */
+@media only screen and (max-width: 570px) {
+  .containerSection6 .containerHeader div {
+    font-size: 1.7rem;
+  }
+  .containerSection6 .containerHeader {
+    padding: 3rem 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .containerSection6 .containerHeader div {
+    font-size: 1.5rem;
+  }
+  .containerSection6 .containerHeader {
+    padding: 2rem 0;
+  }
+}
