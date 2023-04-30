@@ -10,8 +10,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { styled } from "@mui/material/styles";
+import { ReactSVG } from "react-svg";
 
 import Logo from "../../Assets/Logo.png";
+import insta from "../../Assets/icons8-instagram.svg";
+import whats from "../../Assets/icons8-whatsapp.svg";
 
 import "./MainTopBar.css";
 
@@ -65,6 +68,27 @@ export function MainTopbar(props) {
               {item}
             </button>
           ))}
+          <div className="containerIconSOcial">
+            <div style={{ backgroundColor: "#D6A912" }}>
+              <a
+                href="https://api.whatsapp.com/send/?phone=5584991854000&text&-type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ReactSVG src={whats} />
+              </a>
+            </div>
+
+            <div style={{ backgroundColor: "#D6A912" }}>
+              <a
+                href="https://www.instagram.com/institutopotiguar/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ReactSVG src={insta} />
+              </a>
+            </div>
+          </div>
         </div>
       </List>
     </Box>
@@ -74,7 +98,7 @@ export function MainTopbar(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ }}>
+    <Box sx={{}}>
       <CssBaseline />
       <StyledToolbar>
         <AppBar
@@ -97,13 +121,16 @@ export function MainTopbar(props) {
               <MenuIcon />
             </IconButton>
 
-            <Typography
-              sx={{ display: { xs: "block", md: "none" } }}
-            >
+            <Typography sx={{ display: { xs: "block", md: "none" } }}>
               <img
                 src={Logo}
                 alt="logo instituto potiguar"
-                style={{ width: "120px" }}
+                style={{
+                  width: "120px",
+                  position: "absolute",
+                  right: 0,
+                  top: "20%",
+                }}
               />
             </Typography>
             <Typography
@@ -131,6 +158,27 @@ export function MainTopbar(props) {
                     {item}
                   </button>
                 ))}
+                <div className="containerIconSOcial">
+                  <div style={{ backgroundColor: "#D6A912" }}>
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=5584991854000&text&-type=phone_number&app_absent=0"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ReactSVG src={whats} />
+                    </a>
+                  </div>
+
+                  <div style={{ backgroundColor: "#D6A912" }}>
+                    <a
+                      href="https://www.instagram.com/institutopotiguar/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ReactSVG src={insta} />
+                    </a>
+                  </div>
+                </div>
               </div>
             </Box>
           </Toolbar>

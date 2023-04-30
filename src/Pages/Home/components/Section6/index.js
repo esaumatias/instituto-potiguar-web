@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CenterMode from './components/CenterMode';
+import CenterMode from "./components/CenterMode";
 
 import "./Section6.css";
 
@@ -14,9 +14,8 @@ const Section6 = () => {
           <span>Instituto Potiguar</span>
         </div>
       </div>
-      <div id="app" style={{ marginTop: '50px'}}>
-
-       <CenterMode />
+      <div id="app" style={{ marginTop: "30px" }}>
+        <CenterMode />
       </div>
     </section>
   );

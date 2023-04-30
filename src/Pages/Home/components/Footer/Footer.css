@@ -1,0 +1,62 @@
+.containerFooter {
+  background-color: #E5E3E3;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.containerFooter .containerCar {
+  display: flex;
+  width: 75vw;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerFooter .containerCar .card {
+  width: 300px;
+}
+
+.containerFooter .containerCar .card .texto {
+  color: #02913F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+}
+
+.containerFooter .containerCar .card .title {
+  color: #114D24;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.containerFooter .containerCar .card .title2 {
+  color: #047A40;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.containerIconSOcial {
+  display: flex;
+  gap: 10px;
+}
+
+.containerIconSOcial div {
+  /* background-color: #047A40; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 1267px) {
+  .containerFooter .containerCar {
+    flex-direction: column;
+  }
+}
