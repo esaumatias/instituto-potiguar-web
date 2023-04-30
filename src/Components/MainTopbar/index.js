@@ -20,11 +20,11 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   paddingBottom: theme.spacing(2),
   // Override media queries injected by theme.mixins.toolbar
   "@media all": {
-    width: "90vw",
+    width: "80vw",
   },
 }));
 
-const drawerWidth = 240;
+const drawerWidth = "80vw";
 const navItems = ["Início", "Sobre", "Notícias", "Contato"];
 
 export function MainTopbar(props) {
@@ -74,7 +74,7 @@ export function MainTopbar(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ }}>
       <CssBaseline />
       <StyledToolbar>
         <AppBar
@@ -84,8 +84,6 @@ export function MainTopbar(props) {
             backgroundColor: "#fff",
             paddingTop: "10px",
             boxShadow: "none",
-            left: "50%",
-            transform: "translate(5%, 0)",
           }}
         >
           <Toolbar>
@@ -100,7 +98,7 @@ export function MainTopbar(props) {
             </IconButton>
 
             <Typography
-              sx={{ display: { xs: "block", md: "none", margin: "auto" } }}
+              sx={{ display: { xs: "block", md: "none" } }}
             >
               <img
                 src={Logo}

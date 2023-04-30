@@ -3,7 +3,7 @@ import CenterMode from './components/CenterMode';
 
 import "./Section6.css";
 
-const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const Section6 = () => {
   return (
@@ -14,7 +14,7 @@ const Section6 = () => {
           <span>Instituto Potiguar</span>
         </div>
       </div>
-      <div id="app">
+      <div id="app" style={{ marginTop: '50px'}}>
 
        <CenterMode />
       </div>

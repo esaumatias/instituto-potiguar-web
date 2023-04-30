@@ -1,20 +1,32 @@
 import React from "react";
 import { AuthorizedLayout } from "../../Components/AuthorizedLayout/index";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 import backgrounImage from "../../Assets/1 - juntos somos mais fortes.png";
 import buttonSetaBottom from "../../Assets/1 - ícone.png";
+import Logo from "../../Assets/LogoWhats.png";
 
-import Section2 from './components/Section2';
-import Section3 from './components/Section3';
-import Section4 from './components/Section4';
-import Section5 from './components/Section5';
-import Section6 from './components/Section6';
+import Section2 from "./components/Section2";
+import Section3 from "./components/Section3";
+import Section4 from "./components/Section4";
+import Section5 from "./components/Section5";
+import Section6 from "./components/Section6";
 
 import "./Home.css";
 
 const Home = () => {
   return (
     <AuthorizedLayout>
+      <FloatingWhatsApp
+        phoneNumber="+5584991854000"
+        chatMessage="Olá! Obrigado por visitar o nosso site. Como podemos ajudar você hoje?"
+        accountName="Instituto Potiguar"
+        avatar={Logo}
+        placeholder="Enviar mensagem"
+        statusMessage="Juntos pela educação, somos mais fortes!"
+      />
+
+      <div className="lineDIvision" />
       <div className="containerPageInitial">
         <img
           src={backgrounImage}
@@ -40,7 +52,7 @@ const Home = () => {
         </div>
       </div>
       <Section2 />
-      <div className="lineDIvision"/>
+      <div className="lineDIvision" />
       <Section3 />
       <Section4 />
       <Section5 />

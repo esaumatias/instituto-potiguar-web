@@ -19,12 +19,12 @@
 
 .containerPageInitial {
   position: relative;
-  background: linear-gradient(to right, #F7C301, #D6A912);
+  background: linear-gradient(to right, #02913F, #114D24);
 }
 
 .containerPageInitial .backgounImage {
   width: 100vw;
-  height: 80vh;
+  height: 55vh;
   object-fit: cover;
 }
 
@@ -48,7 +48,7 @@
 .containerTextPrincipal .titleHeader {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #D6A912;
+  color: #114D24;
   font-style: italic;
 }
 

@@ -8,15 +8,16 @@
 }
 
 .containerSection2 {
-  width: 100vw;
+  width: 75vw;
   font-family: 'Montserrat', sans-serif;
   background-color: #F6F6F6;
   display: flex;
   flex: 1;
+  align-self: center;
 }
 
 .containerSection2 .content {
-  padding: 5rem
+  padding: 5rem 0;
 }
 
 .containerSection2 .containerTextTitle {
@@ -70,7 +71,7 @@
   color: #5597BF;
   border: 1px solid #5597BF;
   border-radius: 4px;
-  padding: 10px 10px;
+  padding: 10px 20px;
   box-shadow: -4px 4px 0px 0px #5597BF;
   border-radius: 20px;
   cursor: pointer;
@@ -80,6 +81,7 @@
 .containerSection2 .button a {
   text-decoration: none;
   color: #5597BF;
+  font-size: 1rem;
 }
 
 .containerSection2 .button:hover {

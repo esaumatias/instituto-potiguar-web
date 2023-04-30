@@ -44,24 +44,26 @@ const Section3 = () => {
   }, [visible]);
 
   return (
-    <section className="containerSection3">
-      <div style={{ flex: 1 }} className="titleSection">
-        Veja o <span>impacto</span> que o nosso trabalho já causou
-      </div>
-      <div className="containerCards">
-        {data.map((item, idx) => (
-          <div
-            key={idx}
-            className={visible ? "card slide-up" : "card animated"}
-            ref={imageRef}
-          >
-            <img src={item.image} alt="imagem do card" />
-            <div className="title">{item.value}</div>
-            <div className="text">{item.text}</div>
-          </div>
-        ))}
-      </div>
-    </section>
+    <div className="container">
+      <section className="containerSection3">
+        <div style={{ flex: 1 }} className="titleSection">
+          Veja o <span>impacto</span> que o nosso trabalho já causou
+        </div>
+        <div className="containerCards">
+          {data.map((item, idx) => (
+            <div
+              key={idx}
+              className={visible ? "card slide-up" : "card animated"}
+              ref={imageRef}
+            >
+              <img src={item.image} alt="imagem do card" />
+              <div className="title">{item.value}</div>
+              <div className="text">{item.text}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
   );
 };
 

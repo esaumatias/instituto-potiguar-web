@@ -56,9 +56,9 @@ const Section2 = () => {
               Conheça a gente
             </a>
           </button>
-          <button className="button">
+          {/* <button className="button">
             <a href="#nossas-soluções">Nossas soluções</a>
-          </button>
+          </button> */}
         </div>
       </div>
 
