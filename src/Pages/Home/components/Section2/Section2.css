@@ -110,6 +110,9 @@
   .containerSection2 .content {
     padding: 4rem
   }
+  .containerSection2 {
+    width: 100vw;
+  }
 }
 
 @media only screen and (max-width: 488px) {

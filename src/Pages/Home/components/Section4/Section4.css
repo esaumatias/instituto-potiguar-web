@@ -1,5 +1,5 @@
 .containerSection4 {
-  width: 80vw;
+  width: 75vw;
   font-family: 'Montserrat', sans-serif;
   background-color: #F6F6F6;
   display: flex;
@@ -255,6 +255,9 @@
   }
   .containerSection4 {
     padding: 3rem;
+  }
+  .containerSection4 {
+    width: 100vw;
   }
 }
 

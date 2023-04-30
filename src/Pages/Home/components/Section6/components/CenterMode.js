@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useSpring, animated } from "react-spring";
 import Carousel from "react-spring-3d-carousel";
+import { useGesture } from "react-use-gesture";
 
 import izabel from "./../../../../../Assets/6 - depoimento centro.png";
 import heloiza from "./../../../../../Assets/6 - depoimento esquerda.png";
@@ -11,6 +11,14 @@ import "./CenterMode.css";
 function CenterMode() {
   const [goToSlide, setGoToSlide] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
+
+  const bind = useGesture({
+    onDrag: ({ down, movement: [mx], direction: [xDir], distance, cancel }) => {
+      if (down && distance > 10) {
+        cancel(setGoToSlide(goToSlide + (xDir > 0 ? -1 : 1)));
+      }
+    }
+  });
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -42,6 +50,7 @@ function CenterMode() {
           className="cardSection6"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
+          {...bind()}
         >
           <img src={izabel} alt="izabel" />
           <div className="text">
@@ -67,6 +76,7 @@ function CenterMode() {
           className="cardSection6"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
+          {...bind()}
         >
           <img src={heloiza} alt="izabel" />
           <div className="text">
@@ -90,6 +100,7 @@ function CenterMode() {
           className="cardSection6"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
+          {...bind()}
         >
           <img src={barbara} alt="izabel" />
           <div className="text">

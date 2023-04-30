@@ -20,7 +20,7 @@ const Home = () => {
     <AuthorizedLayout>
       <FloatingWhatsApp
         phoneNumber="+5584991854000"
-        chatMessage="Olá! Obrigado por visitar o nosso site. Como podemos ajudar você hoje?"
+        chatMessage="Olá! Como podemos ajudar você hoje?"
         accountName="Instituto Potiguar"
         avatar={Logo}
         placeholder="Enviar mensagem"
