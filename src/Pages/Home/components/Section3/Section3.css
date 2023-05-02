@@ -35,12 +35,11 @@
 .containerCards {
   flex: 3;
   display: flex;
-  gap: 25px;
+  gap: 50px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   /* background-color: #D6A912; */
-  width: 75vw;
 }
 
 .containerCards .card {

@@ -75,13 +75,13 @@
   border-radius: 20px;
   cursor: pointer;
   transition: transform 0.4s ease-in-out;
-  font-size: 1.3rem;
   margin-top: 20px;
 }
 
 .containerSection4 .containerContent .containerCheckList .button a {
   text-decoration: none;
   color: #5597BF;
+  font-size: 1rem;
 }
 
 .containerSection4 .containerContent .containerCheckList .button:hover {
@@ -144,6 +144,10 @@
   .containerSection4 .containerTitle .subtitle {
     font-size: 2rem;
   }
+}
+
+.containerSection4 .containerTitle .mobile {
+  display: none;
 }
 
 @media only screen and (max-width: 1054px) {
@@ -287,6 +291,15 @@
 
 @media only screen and (max-width: 602px) {
   .containerSection4 .containerContent .containerImage {
+    display: none;
+  }
+  .containerSection4 .containerTitle .mobile {
+    display: flex;
+  }
+  .containerSection4 .containerTitle .disable {
+    display: none;
+  }
+  .containerSection4 .containerCheckList .disable {
     display: none;
   }
   .containerSection4 .containerContent {

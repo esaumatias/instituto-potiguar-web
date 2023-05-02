@@ -1,6 +1,6 @@
 import React from "react";
 
-import imageTop from "../../../../Assets/5 - parceiros.png";
+import imageTop from "../../../../Assets/NOVO - parceiros.png";
 import parceiro1 from "../../../../Assets/5 - parceiro 1.png";
 import parceiro2 from "../../../../Assets/5 - parceiro 2.png";
 
@@ -11,7 +11,13 @@ const Section5 = () => {
     <>
       <div className="lineGreen" />
       <section className="containerSection5">
-        <img src={imageTop} alt="titulo" />
+        <div className="containerHeader">
+          <img src={imageTop} alt="titulo" />
+          <div className="texto">
+            <div className="title">Conheça alguns de nossos parceiros</div>
+            <div className="subtitle">e faça parte dessa luta conosco!</div>
+          </div>
+        </div>
         <div className="containerParceiros">
           <div>
             <img src={parceiro1} alt="logo prefeitura Santa Maria" className="santaMaria"/>
