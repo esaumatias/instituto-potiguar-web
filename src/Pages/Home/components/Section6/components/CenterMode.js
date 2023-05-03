@@ -112,7 +112,7 @@ function CenterMode() {
           </div>
           <div className="containerName">
             <div className="title">BÁRBARA FREIRE</div>
-            <div className="subtitle">Gerente de comunicação e mídiasa</div>
+            <div className="subtitle">Gerente de comunicação e mídias</div>
           </div>
         </button>
       ),

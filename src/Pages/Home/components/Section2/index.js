@@ -27,7 +27,7 @@ const Section2 = () => {
     <section className="containerSection2">
       <div style={{ flex: 1 }} className="content">
         <div className="containerTextTitle">
-          <div className="title">O instituto Potiguar</div>
+          <div className="title">O Instituto Potiguar</div>
           <div className="subtitle">Social e Educacional</div>
         </div>
 
