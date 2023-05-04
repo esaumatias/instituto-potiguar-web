@@ -29,7 +29,7 @@ function CenterMode() {
           setGoToSlide(goToSlide + 1);
         }
       }
-    }, 2500);
+    }, 3500);
 
     return () => clearInterval(interval);
   }, [goToSlide, isHovered]);
