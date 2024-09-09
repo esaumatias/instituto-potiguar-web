@@ -1,4 +1,4 @@
-<h1>Instituo Potiguar</h1>
+<h1>Instituto Potiguar</h1>
 <p>O objetivo deste projeto é criar uma landing page impactante e intuitiva para um instituto social e educacional. A landing page foi projetada para comunicar de maneira clara e envolvente os valores, a missão e os serviços oferecidos pelo instituto, destacando seu impacto positivo na comunidade.</p>
 <h2>Tecnologias utilizadas</h2>
 <ul>
